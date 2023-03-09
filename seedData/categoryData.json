@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Electronics",
+        "description": "All kind of electrical items like computers, gaming devices etc."
+    },
+    {
+        "name": "Appliances",
+        "description": "All kind of home appliances like AC, fridge, washing machine, TV etc."
+    },
+    {
+        "name": "Fashion",
+        "description": "All kind of ladies and gents fashionwears."
+    },
+    {
+        "name": "Miscellaneous",
+        "description": "All miscellaneous items."
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "I-Phone 14 Pro",
+        "description": "Apple Smart phone",
+        "cost": 165000,
+        "categoryId": 1
+    },
+    {
+        "name": "HP-Desktop",
+        "description": "All-in-One Desktops",
+        "cost": 165000,
+        "categoryId": 1
+    },
+    {
+        "name": "MacBook Pro",
+        "description": "Apple high end laptop",
+        "cost": 265000,
+        "categoryId": 1
+    },
+    {
+        "name": "Smart-watches",
+        "description": "Samsung",
+        "cost": 35000,
+        "categoryId": 1
+    },
+    {
+        "name": "TV",
+        "description": "OLEDs",
+        "cost": 225000,
+        "categoryId": 2
+    },
+    {
+        "name": "Mixer",
+        "description": "Havells",
+        "cost": 12000,
+        "categoryId": 2
+    },
+    {
+        "name": "AC",
+        "description": "O-general",
+        "cost": 65000,
+        "categoryId": 2
+    },
+    {
+        "name": "Ovan",
+        "description": "Ovan to cook everything",
+        "cost": 33000,
+        "categoryId": 2
+    },
+    {
+        "name": "Oxy-frier",
+        "description": "Fry with hot air",
+        "cost": "25000",
+        "categoryId": 2
+    },
+    {
+        "name": "Havelles-Fan",
+        "description": "Stand-fan 3000 rpm",
+        "cost": "65000",
+        "categoryId": 2
+    },
+    {
+        "name": "LED-Buld",
+        "description": "Havelles 40 watt",
+        "cost": "680",
+        "categoryId": 2
+    },
+    {
+        "name": "Jeans",
+        "description": "Mens size L",
+        "cost": "3500",
+        "categoryId": 3
+    },
+    {
+        "name": "Shirts",
+        "description": "Mens size M",
+        "cost": "1680",
+        "categoryId": 3
+    },
+    {
+        "name": "Trousers",
+        "description": "Ladies size L",
+        "cost": "2680",
+        "categoryId": 3
+    },
+    {
+        "name": "Kurtis",
+        "description": "Ladies size M",
+        "cost": "1550",
+        "categoryId": 3
+    },
+    {
+        "name": "Salwar-suit",
+        "description": "Cotton size M",
+        "cost": "2650",
+        "categoryId": 3
+    }
+]
