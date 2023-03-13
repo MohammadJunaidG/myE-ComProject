@@ -1,15 +1,17 @@
+require("dotenv").config()
+const dev = process.env
 module.exports = {
-    development :{
-        HOST: "localhost",
-        USER: "root",
-        PASSWORD: "root@123456",
-        DB: "demo",
-        dialect: "mysql",
+    development: {
+        HOST: dev.HOST,
+        USER: dev.USER,
+        PASSWORD: dev.PASSWORD,
+        DB: dev.DB,
+        dialect: dev.dialect,
         pool: {
-            max: 5,
-            min: 0,
-            accquire: 30000,
-            idle: 10000
+            max: process.env.max,
+            min: process.env.min,
+            accquire: process.env.accquire,
+            idle: process.env.idle
         }
     }
 }

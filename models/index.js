@@ -2,12 +2,12 @@ const Sequelize = require("sequelize")
 const env = process.env.NODE_ENV || 'development'
 const {
     HOST, USER, PASSWORD,
-    DB, dialect, pool
+    DB, dialect, pool, min, mix, accquire, idle
 } = require("../configs/db.configs")[env]
 
 const sequelize = new Sequelize(
     DB, USER, PASSWORD,
-    { HOST, dialect, pool }
+    { HOST, dialect, pool: {min, mix, accquire, idle} }
 )
 
 const db = {}

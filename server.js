@@ -12,7 +12,7 @@ const userData = require("./seedData/userData.json")
 const db = require("./models");
 const Sequelize = db.Sequelize
 const { Op } = Sequelize
-const { findAll } = require("./controllers/category.controller");
+
 
 
 
